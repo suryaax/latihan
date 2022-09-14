@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg1c.jpeg");
+    height: 700px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: grey;
+    color: white;
+    height: 8%;
+    width: 1345px;
+    margin: 0;
+} 
+
+.logo {
+    float: left;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+}
+
+
+.navmenu {
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.navmenu a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.mainbody {
+    color: white;
+    width: 1340px;
+    height: 100%;
+}
+
+.Welcome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    padding-top: 7%;
+    padding-left: 50%;
+}
+.Welcome2{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    padding-left: 50%;
+}
+.Welcome3{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    padding-left: 50%;
+}
+.Welcome4{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    padding-left: 50%;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.tagline{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.footer {
+    float: left;
+    background-color: #747c92;
+    width: 1345px;
+    height: 30%;
+    font-size: 15px ;
+    margin: 0;
+}
+
+.footer a{
+    padding-left: 5px;
+    Color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.footer li{
+    margin: 5px;
+    list-style-type: none;
+}
+
+.buton{
+    float: left;
+    margin: 17% 0 0 30%;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.buton a{
+    text-decoration: none;
+}
+.google{
+    color: blue;
+    background-color: azure;
+    padding: 10px 10px;
+    border-radius: 25px 25px 25px 25px;
+}
+.fb{
+    color: white;
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 25px 25px 25px 25px;
+}
+.twt{
+    
+    color: white;
+    background-color: lightblue;
+    padding: 10px 10px;
+    border-radius: 25px 25px 25px 25px;
+}
