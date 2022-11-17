@@ -2,7 +2,7 @@
 <html lang="en"></html>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-<link rel="stylesheet" href="stylepdw.css">
+<link rel="stylesheet" href="landingpage.css">
 <head>
     <title>
         SMKN 19 JAKARTA
@@ -11,10 +11,9 @@
 
 <body>
     <div class="header"> 
-        <!-- <p ><span>Suryaweb</span></p> -->
-        <div class="logo"><a href="index.html">SMKN 19 JKT</a></div>
+        <div class="logo"><a href="index.html"><img class="img-logo" src="icons8-school-50.png"></img></a></div>
         <div class="navmenu">
-                <a href="#">Profil</a>
+                <a href="profile-page.html">Profil</a>
                 <a href="#">Galeri</a>
                 <a href="#">Jurnal</a>
                 <a href="#">Artikel</a>
@@ -23,14 +22,32 @@
     <div class="mainbody">
         <div class="buton">
             <p>Sign in</p>
-            <a href="https://account.google.com" class="btn_google">Login by google</a>
-            <p>or</p>
-            <a href="https://facebook.com" class="btn_fb">Login by Facebook</a>
-            <br>
-            <br>
-            <a href="https://twitter.com" class="btn_twt">Login by Twitter</a>
-            <p>didn't have an account? create <a href="#">here</a></p>
+                <div class="button-push1">
+                <a href="#card" class="btn_edu">Login by Edu/belajar.id</a>
+                </div>
         </div>
+
+        <div id="card">
+            <div id="card-content">
+                <div id="card-title">
+                        <a class="close" href="#">&times;</a>
+                        <h2>LOGIN</h2>
+                        <div class="underline-title"></div>
+                </div>
+                <form method="post" class="form">
+                    <label for="user-email" style="padding-top:13px">&nbsp; Email</label>
+                    <input id="user-email" class="form-content" type="Email" name="Email" autocomplete="on" required="">
+                    <div class="form-border"></div>
+                    <label for="user-password" style="padding-top:13px">&nbsp; Password</label>
+                    <input id="user-password" class="form-content" type="Password" name="Password" required="">
+                    <div class="form-border"></div>
+                    <a href="a"><legend id="forgot-pass">lupa password?</legend></a>
+                    <input id="submit-btn" type="submit" name="submit" value="LOGIN">
+                    <a href="a" id="signup">Belum punya akun?</a>
+                </form>
+            </div>
+        </div>
+        
             <h1 class="Welcome">Welcome</h1>
             <h1 class="Welcome2">To</h1>
             <h1 class="Welcome3">SMKN 19</h1>
@@ -57,15 +74,6 @@
                 <input class="sob" type="submit" value="send">
             </div>
         </div>
-        <!-- <p>Choose your background profile</p>
-        <br>
-        <select class="Selection">
-            <option value="opt_1">Teacher</option>
-            <option value="opt_2">Students</option>
-            <option value="opt_3">Parents</option>
-            <option value="opt_4">Officials</option>
-        </select> -->
-
     </div>
 </body>
 
